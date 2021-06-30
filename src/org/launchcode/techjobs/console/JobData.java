@@ -41,7 +41,7 @@ public class JobData {
             }
         }
 
-        return (java.util.Collections.sort(values));
+        return values;
     }
 
     public static ArrayList<HashMap<String, String>> findAll() {
